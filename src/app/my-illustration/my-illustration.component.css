@@ -1,0 +1,34 @@
+form {
+  border: 2px black solid;
+  margin: -1%;
+  padding: 100px;
+  color: black;
+  font-family: cursive;
+  align-content: center;
+  content: icon;
+  text-align: left;
+}
+input::placeholder {
+  width: 500px;
+  height: 1500pxl;
+}
+#description {
+  height: 150px;
+
+  ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    vertical-align: top;
+  }
+  ::-moz-placeholder {
+    /* Firefox 19+ */
+    vertical-align: top;
+  }
+  :-ms-input-placeholder {
+    /* IE 10+ */
+    vertical-align: top;
+  }
+  :-moz-placeholder {
+    /* Firefox 18- */
+    vertical-align: top;
+  }
+}
